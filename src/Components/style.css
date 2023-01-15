@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;;
+}
+.background{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+.header{
+    display: flex;
+    background-color: #e0e0e0;
+    width: 25cm;
+    height: 2cm;
+    align-items: center;
+
+}
+.header .logo{
+    margin-left: 2cm;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.header .input{
+    width: 9cm;
+    height: 1cm;
+    outline: none;
+    border: none;
+    margin-left: 10cm;
+    border-radius: 20px;
+    padding-left: 1cm;
+    
+}
+.header .searchbtn {
+    width: 1cm;
+    height: 1cm;
+    border: none;
+    border-radius: 20px;
+    margin-left: -37px;
+    background-color: #365e7d;
+    
+}
+.header .searchbtn .image{
+    width: 0.5cm;
+    height: auto;
+}
+
+.plate{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    width: 15cm;
+    height: 8cm;
+    background-color: #f0f0f0;
+    border-radius: 40px;
+    border: 2px solid #c8c8c8;
+}
+.plate .weatherlogo{
+    width: 7cm;
+    height: auto;
+    margin-top: -2.5cm;
+    margin-left: -2.5cm;
+}
+
+.plate .time{
+    display: flex;
+    margin-left: 6cm;
+}
+.plate .time .clock{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.plate .time .pin{
+    width: 15px;
+    height: 15px;
+    margin-top: 3.5px;
+    margin-left: 15px;
+}
+.plate .time .calendar{
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+    margin-left: 16px;
+}
+.plate .time .localtime{
+    margin-left: 2px;
+}
+.plate .time .cityname{
+    margin-left: 1px;
+}
+.plate .time .newdate{
+    margin-left: 4px;
+}
+.plate .condition{
+    margin-top: -3cm;
+    margin-left: 7.3cm;
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffc166;
+    
+}
+
+.plate .bottomplate {
+    display: flex;
+    line-height: 5px;
+    margin-top: 0.8cm;
+    width: 15cm;
+    height: 3cm;
+    background-color: #ffc166;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 2px solid #c8c8c8;
+    border-top: none;
+    margin-left: -2px;
+
+}
+.plate .bottomplate .humidity, .presure{
+    margin-left: 30px;
+    margin-top: 1cm;
+    color: #fff;
+}
+.plate .bottomplate .wind{
+    margin-left: 15px;
+    margin-top: 1cm;
+    color: #fff;
+}
+
+
+.plate .bottomplate .sunset{
+    margin-top: 1cm;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.plate .bottomplate .span1{
+    width: 1px;
+    height: 3cm;
+    background-color: #fff;
+    margin-left: 25px;
+
+}
+
+.plate .bottomplate .span2{
+    width: 1px;
+    height: 3cm;
+    background-color: #fff;
+    margin-left: 0.8cm;
+}
+.plate .bottomplate .span3{
+    width: 1px;
+    height: 3cm;
+    margin-left: 0.5cm;
+    background-color: #fff;
+}
